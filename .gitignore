@@ -1,0 +1,14 @@
+# Segredos — nunca commitar
+.env
+.env.local
+
+# Dependências
+node_modules
+
+# Build
+dist
+dist-ssr
+
+# Editor / SO
+.DS_Store
+*.log

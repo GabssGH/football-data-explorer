@@ -1,0 +1,33 @@
+.scorers-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+
+.scorers-table th,
+.scorers-table td {
+  text-align: left;
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.9rem;
+}
+
+.scorers-table th {
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  font-size: var(--fs-caption);
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+
+.scorers-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.scorers-table__goals {
+  color: var(--color-gold);
+  font-weight: 600;
+}

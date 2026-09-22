@@ -1,0 +1,3852 @@
+{
+  "_readme": "Dataset curado manualmente com base em fontes públicas (Wikipedia e sites de estatística de futebol), complementado com conhecimento geral verificável sobre a história do futebol. apiSeason é o ano que a football-data.org usa como parâmetro (?season=YYYY); label é só para exibição. Cobertura por competição: PL desde 1992/93 (fundação da Premier League); PD desde 1929/30 (fundação da La Liga); BL1 desde 1963/64 (fundação da Bundesliga); CL desde 1955/56 (fundação da Copa dos Campeões Europeus); WC desde 1930 (primeira Copa do Mundo, com 1942 e 1946 pulados por causa da Segunda Guerra); EC desde 1960 (primeira Eurocopa); BSA desde 1971 (era contínua) mais 1937, reconhecida oficialmente pela CBF como 1ª edição em 2023. SA, FL1, DED e PPL cobrem só desde 1980/81 — a confiabilidade da curadoria manual cai bastante em décadas anteriores a essa pra essas quatro competições específicas, então preferimos não incluir dados sem confiança razoável. Serie A 2004/05: título não atribuído após o escândalo Calciopoli. Ligue 1 1992/93: título não atribuído após o escândalo VA-OM (Marseille rebaixado). Eredivisie 2019/20: temporada encerrada sem campeão por causa da pandemia de COVID-19. EFL Championship (ELC) não está incluída.",
+  "PL": [
+    {
+      "apiSeason": 2025,
+      "label": "2025/26",
+      "champion": "Arsenal"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024/25",
+      "champion": "Liverpool"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023/24",
+      "champion": "Manchester City"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022/23",
+      "champion": "Manchester City"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021/22",
+      "champion": "Manchester City"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020/21",
+      "champion": "Manchester City"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019/20",
+      "champion": "Liverpool"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018/19",
+      "champion": "Manchester City"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017/18",
+      "champion": "Manchester City"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016/17",
+      "champion": "Chelsea"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015/16",
+      "champion": "Leicester City"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014/15",
+      "champion": "Chelsea"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013/14",
+      "champion": "Manchester City"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012/13",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011/12",
+      "champion": "Manchester City"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010/11",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009/10",
+      "champion": "Chelsea"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008/09",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007/08",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006/07",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005/06",
+      "champion": "Chelsea"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004/05",
+      "champion": "Chelsea"
+    },
+    {
+      "apiSeason": 2003,
+      "label": "2003/04",
+      "champion": "Arsenal"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002/03",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 2001,
+      "label": "2001/02",
+      "champion": "Arsenal"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000/01",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 1999,
+      "label": "1999/00",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998/99",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 1997,
+      "label": "1997/98",
+      "champion": "Arsenal"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996/97",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 1995,
+      "label": "1995/96",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994/95",
+      "champion": "Blackburn Rovers"
+    },
+    {
+      "apiSeason": 1993,
+      "label": "1993/94",
+      "champion": "Manchester United"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992/93",
+      "champion": "Manchester United"
+    }
+  ],
+  "PD": [
+    {
+      "apiSeason": 2025,
+      "label": "2025/26",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024/25",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023/24",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022/23",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021/22",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020/21",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019/20",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018/19",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017/18",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016/17",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015/16",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014/15",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013/14",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012/13",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011/12",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010/11",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009/10",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008/09",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007/08",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006/07",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005/06",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004/05",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2003,
+      "label": "2003/04",
+      "champion": "Valencia"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002/03",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 2001,
+      "label": "2001/02",
+      "champion": "Valencia"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000/01",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1999,
+      "label": "1999/00",
+      "champion": "Deportivo La Coruña"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998/99",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1997,
+      "label": "1997/98",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996/97",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1995,
+      "label": "1995/96",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994/95",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1993,
+      "label": "1993/94",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992/93",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1991,
+      "label": "1991/92",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1990,
+      "label": "1990/91",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1989,
+      "label": "1989/90",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1988,
+      "label": "1988/89",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1987,
+      "label": "1987/88",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1986,
+      "label": "1986/87",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1985,
+      "label": "1985/86",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1984,
+      "label": "1984/85",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1983,
+      "label": "1983/84",
+      "champion": "Athletic Club"
+    },
+    {
+      "apiSeason": 1982,
+      "label": "1982/83",
+      "champion": "Athletic Club"
+    },
+    {
+      "apiSeason": 1981,
+      "label": "1981/82",
+      "champion": "Real Sociedad"
+    },
+    {
+      "apiSeason": 1980,
+      "label": "1980/81",
+      "champion": "Real Sociedad"
+    },
+    {
+      "apiSeason": 1979,
+      "label": "1979/80",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1978,
+      "label": "1978/79",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1977,
+      "label": "1977/78",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1976,
+      "label": "1976/77",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 1975,
+      "label": "1975/76",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1974,
+      "label": "1974/75",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1973,
+      "label": "1973/74",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1972,
+      "label": "1972/73",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 1971,
+      "label": "1971/72",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1970,
+      "label": "1970/71",
+      "champion": "Valencia"
+    },
+    {
+      "apiSeason": 1969,
+      "label": "1969/70",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968/69",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1967,
+      "label": "1967/68",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1966,
+      "label": "1966/67",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1965,
+      "label": "1965/66",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 1964,
+      "label": "1964/65",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1963,
+      "label": "1963/64",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1962,
+      "label": "1962/63",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1961,
+      "label": "1961/62",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1960,
+      "label": "1960/61",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1959,
+      "label": "1959/60",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1958,
+      "label": "1958/59",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1957,
+      "label": "1957/58",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1956,
+      "label": "1956/57",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1955,
+      "label": "1955/56",
+      "champion": "Athletic Club"
+    },
+    {
+      "apiSeason": 1954,
+      "label": "1954/55",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1953,
+      "label": "1953/54",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1952,
+      "label": "1952/53",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1951,
+      "label": "1951/52",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1950,
+      "label": "1950/51",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 1949,
+      "label": "1949/50",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 1948,
+      "label": "1948/49",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1947,
+      "label": "1947/48",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1946,
+      "label": "1946/47",
+      "champion": "Valencia"
+    },
+    {
+      "apiSeason": 1945,
+      "label": "1945/46",
+      "champion": "Sevilla"
+    },
+    {
+      "apiSeason": 1944,
+      "label": "1944/45",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1943,
+      "label": "1943/44",
+      "champion": "Valencia"
+    },
+    {
+      "apiSeason": 1942,
+      "label": "1942/43",
+      "champion": "Athletic Club"
+    },
+    {
+      "apiSeason": 1941,
+      "label": "1941/42",
+      "champion": "Valencia"
+    },
+    {
+      "apiSeason": 1940,
+      "label": "1940/41",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 1939,
+      "label": "1939/40",
+      "champion": "Atlético de Madrid"
+    },
+    {
+      "apiSeason": 1935,
+      "label": "1935/36",
+      "champion": "Athletic Club"
+    },
+    {
+      "apiSeason": 1934,
+      "label": "1934/35",
+      "champion": "Real Betis"
+    },
+    {
+      "apiSeason": 1933,
+      "label": "1933/34",
+      "champion": "Athletic Club"
+    },
+    {
+      "apiSeason": 1932,
+      "label": "1932/33",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1931,
+      "label": "1931/32",
+      "champion": "Real Madrid"
+    },
+    {
+      "apiSeason": 1930,
+      "label": "1930/31",
+      "champion": "Athletic Club"
+    },
+    {
+      "apiSeason": 1929,
+      "label": "1929/30",
+      "champion": "Athletic Club"
+    },
+    {
+      "apiSeason": 1928,
+      "label": "1928/29",
+      "champion": "Barcelona"
+    }
+  ],
+  "BL1": [
+    {
+      "apiSeason": 2025,
+      "label": "2025/26",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024/25",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023/24",
+      "champion": "Bayer Leverkusen"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022/23",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021/22",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020/21",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019/20",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018/19",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017/18",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016/17",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015/16",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014/15",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013/14",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012/13",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011/12",
+      "champion": "Borussia Dortmund"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010/11",
+      "champion": "Borussia Dortmund"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009/10",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008/09",
+      "champion": "VfL Wolfsburg"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007/08",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006/07",
+      "champion": "VfB Stuttgart"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005/06",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004/05",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2003,
+      "label": "2003/04",
+      "champion": "Werder Bremen"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002/03",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 2001,
+      "label": "2001/02",
+      "champion": "Borussia Dortmund"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000/01",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1999,
+      "label": "1999/00",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998/99",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1997,
+      "label": "1997/98",
+      "champion": "1. FC Kaiserslautern"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996/97",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1995,
+      "label": "1995/96",
+      "champion": "Borussia Dortmund"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994/95",
+      "champion": "Borussia Dortmund"
+    },
+    {
+      "apiSeason": 1993,
+      "label": "1993/94",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992/93",
+      "champion": "Werder Bremen"
+    },
+    {
+      "apiSeason": 1991,
+      "label": "1991/92",
+      "champion": "VfB Stuttgart"
+    },
+    {
+      "apiSeason": 1990,
+      "label": "1990/91",
+      "champion": "1. FC Kaiserslautern"
+    },
+    {
+      "apiSeason": 1989,
+      "label": "1989/90",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1988,
+      "label": "1988/89",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1987,
+      "label": "1987/88",
+      "champion": "Werder Bremen"
+    },
+    {
+      "apiSeason": 1986,
+      "label": "1986/87",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1985,
+      "label": "1985/86",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1984,
+      "label": "1984/85",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1983,
+      "label": "1983/84",
+      "champion": "VfB Stuttgart"
+    },
+    {
+      "apiSeason": 1982,
+      "label": "1982/83",
+      "champion": "Hamburger SV"
+    },
+    {
+      "apiSeason": 1981,
+      "label": "1981/82",
+      "champion": "Hamburger SV"
+    },
+    {
+      "apiSeason": 1980,
+      "label": "1980/81",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1979,
+      "label": "1979/80",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1978,
+      "label": "1978/79",
+      "champion": "Hamburger SV"
+    },
+    {
+      "apiSeason": 1977,
+      "label": "1977/78",
+      "champion": "1. FC Köln"
+    },
+    {
+      "apiSeason": 1976,
+      "label": "1976/77",
+      "champion": "Borussia Mönchengladbach"
+    },
+    {
+      "apiSeason": 1975,
+      "label": "1975/76",
+      "champion": "Borussia Mönchengladbach"
+    },
+    {
+      "apiSeason": 1974,
+      "label": "1974/75",
+      "champion": "Borussia Mönchengladbach"
+    },
+    {
+      "apiSeason": 1973,
+      "label": "1973/74",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1972,
+      "label": "1972/73",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1971,
+      "label": "1971/72",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1970,
+      "label": "1970/71",
+      "champion": "Borussia Mönchengladbach"
+    },
+    {
+      "apiSeason": 1969,
+      "label": "1969/70",
+      "champion": "Borussia Mönchengladbach"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968/69",
+      "champion": "Bayern München"
+    },
+    {
+      "apiSeason": 1967,
+      "label": "1967/68",
+      "champion": "1. FC Nürnberg"
+    },
+    {
+      "apiSeason": 1966,
+      "label": "1966/67",
+      "champion": "Eintracht Braunschweig"
+    },
+    {
+      "apiSeason": 1965,
+      "label": "1965/66",
+      "champion": "1860 München"
+    },
+    {
+      "apiSeason": 1964,
+      "label": "1964/65",
+      "champion": "Werder Bremen"
+    },
+    {
+      "apiSeason": 1963,
+      "label": "1963/64",
+      "champion": "1. FC Köln"
+    }
+  ],
+  "SA": [
+    {
+      "apiSeason": 2025,
+      "label": "2025/26",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024/25",
+      "champion": "Napoli"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023/24",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022/23",
+      "champion": "Napoli"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021/22",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020/21",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019/20",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018/19",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017/18",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016/17",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015/16",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014/15",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013/14",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012/13",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011/12",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010/11",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009/10",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008/09",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007/08",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006/07",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005/06",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004/05",
+      "champion": "Título revogado (escândalo Calciopoli)"
+    },
+    {
+      "apiSeason": 2003,
+      "label": "2003/04",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002/03",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2001,
+      "label": "2001/02",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000/01",
+      "champion": "Roma"
+    },
+    {
+      "apiSeason": 1999,
+      "label": "1999/00",
+      "champion": "Lazio"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998/99",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1997,
+      "label": "1997/98",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996/97",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1995,
+      "label": "1995/96",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994/95",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1993,
+      "label": "1993/94",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992/93",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1991,
+      "label": "1991/92",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1990,
+      "label": "1990/91",
+      "champion": "Sampdoria"
+    },
+    {
+      "apiSeason": 1989,
+      "label": "1989/90",
+      "champion": "Napoli"
+    },
+    {
+      "apiSeason": 1988,
+      "label": "1988/89",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1987,
+      "label": "1987/88",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1986,
+      "label": "1986/87",
+      "champion": "Napoli"
+    },
+    {
+      "apiSeason": 1985,
+      "label": "1985/86",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1984,
+      "label": "1984/85",
+      "champion": "Hellas Verona"
+    },
+    {
+      "apiSeason": 1983,
+      "label": "1983/84",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1982,
+      "label": "1982/83",
+      "champion": "Roma"
+    },
+    {
+      "apiSeason": 1981,
+      "label": "1981/82",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1980,
+      "label": "1980/81",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1979,
+      "label": "1979/80",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1978,
+      "label": "1978/79",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1977,
+      "label": "1977/78",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1976,
+      "label": "1976/77",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1975,
+      "label": "1975/76",
+      "champion": "Torino"
+    },
+    {
+      "apiSeason": 1974,
+      "label": "1974/75",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1973,
+      "label": "1973/74",
+      "champion": "Lazio"
+    },
+    {
+      "apiSeason": 1972,
+      "label": "1972/73",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1971,
+      "label": "1971/72",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1970,
+      "label": "1970/71",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1969,
+      "label": "1969/70",
+      "champion": "Cagliari"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968/69",
+      "champion": "Fiorentina"
+    },
+    {
+      "apiSeason": 1967,
+      "label": "1967/68",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1966,
+      "label": "1966/67",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1965,
+      "label": "1965/66",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1964,
+      "label": "1964/65",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1963,
+      "label": "1963/64",
+      "champion": "Bologna"
+    },
+    {
+      "apiSeason": 1962,
+      "label": "1962/63",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1961,
+      "label": "1961/62",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1960,
+      "label": "1960/61",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1959,
+      "label": "1959/60",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1958,
+      "label": "1958/59",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1957,
+      "label": "1957/58",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1956,
+      "label": "1956/57",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1955,
+      "label": "1955/56",
+      "champion": "Fiorentina"
+    },
+    {
+      "apiSeason": 1954,
+      "label": "1954/55",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1953,
+      "label": "1953/54",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1952,
+      "label": "1952/53",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1951,
+      "label": "1951/52",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1950,
+      "label": "1950/51",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1949,
+      "label": "1949/50",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1948,
+      "label": "1948/49",
+      "champion": "Torino"
+    },
+    {
+      "apiSeason": 1947,
+      "label": "1947/48",
+      "champion": "Torino"
+    },
+    {
+      "apiSeason": 1946,
+      "label": "1946/47",
+      "champion": "Torino"
+    },
+    {
+      "apiSeason": 1945,
+      "label": "1945/46",
+      "champion": "Torino"
+    },
+    {
+      "apiSeason": 1942,
+      "label": "1942/43",
+      "champion": "Torino"
+    },
+    {
+      "apiSeason": 1941,
+      "label": "1941/42",
+      "champion": "Roma"
+    },
+    {
+      "apiSeason": 1940,
+      "label": "1940/41",
+      "champion": "Bologna"
+    },
+    {
+      "apiSeason": 1939,
+      "label": "1939/40",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1938,
+      "label": "1938/39",
+      "champion": "Bologna"
+    },
+    {
+      "apiSeason": 1937,
+      "label": "1937/38",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1936,
+      "label": "1936/37",
+      "champion": "Bologna"
+    },
+    {
+      "apiSeason": 1935,
+      "label": "1935/36",
+      "champion": "Bologna"
+    },
+    {
+      "apiSeason": 1934,
+      "label": "1934/35",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1933,
+      "label": "1933/34",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1932,
+      "label": "1932/33",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1931,
+      "label": "1931/32",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1930,
+      "label": "1930/31",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1929,
+      "label": "1929/30",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1928,
+      "label": "1928/29",
+      "champion": "Bologna"
+    },
+    {
+      "apiSeason": 1927,
+      "label": "1927/28",
+      "champion": "Torino"
+    },
+    {
+      "apiSeason": 1925,
+      "label": "1925/26",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1924,
+      "label": "1924/25",
+      "champion": "Bologna"
+    },
+    {
+      "apiSeason": 1923,
+      "label": "1923/24",
+      "champion": "Genoa"
+    },
+    {
+      "apiSeason": 1922,
+      "label": "1922/23",
+      "champion": "Genoa"
+    },
+    {
+      "apiSeason": 1921,
+      "label": "1921/22",
+      "champion": "Pro Vercelli"
+    },
+    {
+      "apiSeason": 1920,
+      "label": "1920/21",
+      "champion": "Pro Vercelli"
+    },
+    {
+      "apiSeason": 1919,
+      "label": "1919/20",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1914,
+      "label": "1914/15",
+      "champion": "Genoa"
+    },
+    {
+      "apiSeason": 1912,
+      "label": "1912/13",
+      "champion": "Pro Vercelli"
+    },
+    {
+      "apiSeason": 1911,
+      "label": "1911/12",
+      "champion": "Pro Vercelli"
+    },
+    {
+      "apiSeason": 1910,
+      "label": "1910/11",
+      "champion": "Pro Vercelli"
+    },
+    {
+      "apiSeason": 1909,
+      "label": "1909/10",
+      "champion": "Inter"
+    },
+    {
+      "apiSeason": 1908,
+      "label": "1908/09",
+      "champion": "Pro Vercelli"
+    },
+    {
+      "apiSeason": 1907,
+      "label": "1907/08",
+      "champion": "Pro Vercelli"
+    },
+    {
+      "apiSeason": 1906,
+      "label": "1906/07",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1905,
+      "label": "1905/06",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1904,
+      "label": "1904/05",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1903,
+      "label": "1903/04",
+      "champion": "Genoa"
+    },
+    {
+      "apiSeason": 1902,
+      "label": "1902/03",
+      "champion": "Genoa"
+    },
+    {
+      "apiSeason": 1901,
+      "label": "1901/02",
+      "champion": "Genoa"
+    },
+    {
+      "apiSeason": 1900,
+      "label": "1900/01",
+      "champion": "Milan"
+    },
+    {
+      "apiSeason": 1899,
+      "label": "1899/00",
+      "champion": "Genoa"
+    },
+    {
+      "apiSeason": 1898,
+      "label": "1898/99",
+      "champion": "Genoa"
+    },
+    {
+      "apiSeason": 1897,
+      "label": "1897/98",
+      "champion": "Genoa"
+    }
+  ],
+  "FL1": [
+    {
+      "apiSeason": 2025,
+      "label": "2025/26",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024/25",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023/24",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022/23",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021/22",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020/21",
+      "champion": "Lille OSC"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019/20",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018/19",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017/18",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016/17",
+      "champion": "AS Monaco"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015/16",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014/15",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013/14",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012/13",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011/12",
+      "champion": "Montpellier HSC"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010/11",
+      "champion": "Lille OSC"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009/10",
+      "champion": "Olympique de Marseille"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008/09",
+      "champion": "Girondins de Bordeaux"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007/08",
+      "champion": "Olympique Lyonnais"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006/07",
+      "champion": "Olympique Lyonnais"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005/06",
+      "champion": "Olympique Lyonnais"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004/05",
+      "champion": "Olympique Lyonnais"
+    },
+    {
+      "apiSeason": 2003,
+      "label": "2003/04",
+      "champion": "Olympique Lyonnais"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002/03",
+      "champion": "Olympique Lyonnais"
+    },
+    {
+      "apiSeason": 2001,
+      "label": "2001/02",
+      "champion": "Olympique Lyonnais"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000/01",
+      "champion": "FC Nantes"
+    },
+    {
+      "apiSeason": 1999,
+      "label": "1999/00",
+      "champion": "AS Monaco"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998/99",
+      "champion": "Girondins de Bordeaux"
+    },
+    {
+      "apiSeason": 1997,
+      "label": "1997/98",
+      "champion": "RC Lens"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996/97",
+      "champion": "AS Monaco"
+    },
+    {
+      "apiSeason": 1995,
+      "label": "1995/96",
+      "champion": "AJ Auxerre"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994/95",
+      "champion": "FC Nantes"
+    },
+    {
+      "apiSeason": 1993,
+      "label": "1993/94",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992/93",
+      "champion": "Título não atribuído (escândalo VA-OM, Marseille rebaixado)"
+    },
+    {
+      "apiSeason": 1991,
+      "label": "1991/92",
+      "champion": "Olympique de Marseille"
+    },
+    {
+      "apiSeason": 1990,
+      "label": "1990/91",
+      "champion": "Olympique de Marseille"
+    },
+    {
+      "apiSeason": 1989,
+      "label": "1989/90",
+      "champion": "Olympique de Marseille"
+    },
+    {
+      "apiSeason": 1988,
+      "label": "1988/89",
+      "champion": "Olympique de Marseille"
+    },
+    {
+      "apiSeason": 1987,
+      "label": "1987/88",
+      "champion": "AS Monaco"
+    },
+    {
+      "apiSeason": 1986,
+      "label": "1986/87",
+      "champion": "Girondins de Bordeaux"
+    },
+    {
+      "apiSeason": 1985,
+      "label": "1985/86",
+      "champion": "Paris Saint-Germain"
+    },
+    {
+      "apiSeason": 1984,
+      "label": "1984/85",
+      "champion": "Girondins de Bordeaux"
+    },
+    {
+      "apiSeason": 1983,
+      "label": "1983/84",
+      "champion": "Girondins de Bordeaux"
+    },
+    {
+      "apiSeason": 1982,
+      "label": "1982/83",
+      "champion": "FC Nantes"
+    },
+    {
+      "apiSeason": 1981,
+      "label": "1981/82",
+      "champion": "AS Monaco"
+    },
+    {
+      "apiSeason": 1980,
+      "label": "1980/81",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1979,
+      "label": "1979/80",
+      "champion": "FC Nantes"
+    },
+    {
+      "apiSeason": 1978,
+      "label": "1978/79",
+      "champion": "RC Strasbourg"
+    },
+    {
+      "apiSeason": 1977,
+      "label": "1977/78",
+      "champion": "AS Monaco"
+    },
+    {
+      "apiSeason": 1976,
+      "label": "1976/77",
+      "champion": "FC Nantes"
+    },
+    {
+      "apiSeason": 1975,
+      "label": "1975/76",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1974,
+      "label": "1974/75",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1973,
+      "label": "1973/74",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1972,
+      "label": "1972/73",
+      "champion": "FC Nantes"
+    },
+    {
+      "apiSeason": 1971,
+      "label": "1971/72",
+      "champion": "Olympique de Marseille"
+    },
+    {
+      "apiSeason": 1970,
+      "label": "1970/71",
+      "champion": "Olympique de Marseille"
+    },
+    {
+      "apiSeason": 1969,
+      "label": "1969/70",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968/69",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1967,
+      "label": "1967/68",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1966,
+      "label": "1966/67",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1965,
+      "label": "1965/66",
+      "champion": "FC Nantes"
+    },
+    {
+      "apiSeason": 1964,
+      "label": "1964/65",
+      "champion": "FC Nantes"
+    },
+    {
+      "apiSeason": 1963,
+      "label": "1963/64",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1962,
+      "label": "1962/63",
+      "champion": "AS Monaco"
+    },
+    {
+      "apiSeason": 1961,
+      "label": "1961/62",
+      "champion": "Stade de Reims"
+    },
+    {
+      "apiSeason": 1960,
+      "label": "1960/61",
+      "champion": "AS Monaco"
+    },
+    {
+      "apiSeason": 1959,
+      "label": "1959/60",
+      "champion": "Stade de Reims"
+    },
+    {
+      "apiSeason": 1958,
+      "label": "1958/59",
+      "champion": "OGC Nice"
+    },
+    {
+      "apiSeason": 1957,
+      "label": "1957/58",
+      "champion": "Stade de Reims"
+    },
+    {
+      "apiSeason": 1956,
+      "label": "1956/57",
+      "champion": "Saint-Étienne"
+    },
+    {
+      "apiSeason": 1955,
+      "label": "1955/56",
+      "champion": "OGC Nice"
+    },
+    {
+      "apiSeason": 1954,
+      "label": "1954/55",
+      "champion": "Stade de Reims"
+    },
+    {
+      "apiSeason": 1953,
+      "label": "1953/54",
+      "champion": "Lille OSC"
+    },
+    {
+      "apiSeason": 1952,
+      "label": "1952/53",
+      "champion": "Stade de Reims"
+    },
+    {
+      "apiSeason": 1951,
+      "label": "1951/52",
+      "champion": "OGC Nice"
+    },
+    {
+      "apiSeason": 1950,
+      "label": "1950/51",
+      "champion": "OGC Nice"
+    },
+    {
+      "apiSeason": 1949,
+      "label": "1949/50",
+      "champion": "Girondins de Bordeaux"
+    },
+    {
+      "apiSeason": 1948,
+      "label": "1948/49",
+      "champion": "Stade de Reims"
+    },
+    {
+      "apiSeason": 1947,
+      "label": "1947/48",
+      "champion": "Olympique de Marseille"
+    },
+    {
+      "apiSeason": 1946,
+      "label": "1946/47",
+      "champion": "CO Roubaix"
+    },
+    {
+      "apiSeason": 1945,
+      "label": "1945/46",
+      "champion": "Lille OSC"
+    },
+    {
+      "apiSeason": 1938,
+      "label": "1938/39",
+      "champion": "SC Sète"
+    },
+    {
+      "apiSeason": 1937,
+      "label": "1937/38",
+      "champion": "FC Sochaux-Montbéliard"
+    },
+    {
+      "apiSeason": 1936,
+      "label": "1936/37",
+      "champion": "Olympique de Marseille"
+    },
+    {
+      "apiSeason": 1935,
+      "label": "1935/36",
+      "champion": "Racing Club de Paris"
+    },
+    {
+      "apiSeason": 1934,
+      "label": "1934/35",
+      "champion": "FC Sochaux-Montbéliard"
+    },
+    {
+      "apiSeason": 1933,
+      "label": "1933/34",
+      "champion": "SC Sète"
+    },
+    {
+      "apiSeason": 1932,
+      "label": "1932/33",
+      "champion": "Olympique Lillois"
+    }
+  ],
+  "DED": [
+    {
+      "apiSeason": 2025,
+      "label": "2025/26",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024/25",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023/24",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022/23",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021/22",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020/21",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019/20",
+      "champion": "Título não atribuído (temporada encerrada por COVID-19)"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018/19",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017/18",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016/17",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015/16",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014/15",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013/14",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012/13",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011/12",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010/11",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009/10",
+      "champion": "FC Twente"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008/09",
+      "champion": "AZ"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007/08",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006/07",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005/06",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004/05",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2003,
+      "label": "2003/04",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002/03",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 2001,
+      "label": "2001/02",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000/01",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1999,
+      "label": "1999/00",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998/99",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1997,
+      "label": "1997/98",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996/97",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1995,
+      "label": "1995/96",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994/95",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1993,
+      "label": "1993/94",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992/93",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1991,
+      "label": "1991/92",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1990,
+      "label": "1990/91",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1989,
+      "label": "1989/90",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1988,
+      "label": "1988/89",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1987,
+      "label": "1987/88",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1986,
+      "label": "1986/87",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1985,
+      "label": "1985/86",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1984,
+      "label": "1984/85",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1983,
+      "label": "1983/84",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1982,
+      "label": "1982/83",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1981,
+      "label": "1981/82",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1980,
+      "label": "1980/81",
+      "champion": "AZ"
+    },
+    {
+      "apiSeason": 1979,
+      "label": "1979/80",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1978,
+      "label": "1978/79",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1977,
+      "label": "1977/78",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1976,
+      "label": "1976/77",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1975,
+      "label": "1975/76",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1974,
+      "label": "1974/75",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1973,
+      "label": "1973/74",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1972,
+      "label": "1972/73",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1971,
+      "label": "1971/72",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1970,
+      "label": "1970/71",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1969,
+      "label": "1969/70",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968/69",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1967,
+      "label": "1967/68",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1966,
+      "label": "1966/67",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1965,
+      "label": "1965/66",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1964,
+      "label": "1964/65",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1963,
+      "label": "1963/64",
+      "champion": "DWS"
+    },
+    {
+      "apiSeason": 1962,
+      "label": "1962/63",
+      "champion": "PSV"
+    },
+    {
+      "apiSeason": 1961,
+      "label": "1961/62",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1960,
+      "label": "1960/61",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1959,
+      "label": "1959/60",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1958,
+      "label": "1958/59",
+      "champion": "Sparta Rotterdam"
+    },
+    {
+      "apiSeason": 1957,
+      "label": "1957/58",
+      "champion": "DOS"
+    },
+    {
+      "apiSeason": 1956,
+      "label": "1956/57",
+      "champion": "Ajax"
+    }
+  ],
+  "PPL": [
+    {
+      "apiSeason": 2025,
+      "label": "2025/26",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024/25",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023/24",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022/23",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021/22",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020/21",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019/20",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018/19",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017/18",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016/17",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015/16",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014/15",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013/14",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011/12",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010/11",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009/10",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008/09",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007/08",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006/07",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005/06",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004/05",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 2003,
+      "label": "2003/04",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002/03",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2001,
+      "label": "2001/02",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000/01",
+      "champion": "Boavista"
+    },
+    {
+      "apiSeason": 1999,
+      "label": "1999/00",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998/99",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1997,
+      "label": "1997/98",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996/97",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1995,
+      "label": "1995/96",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994/95",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1993,
+      "label": "1993/94",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992/93",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1991,
+      "label": "1991/92",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1990,
+      "label": "1990/91",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1989,
+      "label": "1989/90",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1988,
+      "label": "1988/89",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1987,
+      "label": "1987/88",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1986,
+      "label": "1986/87",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1985,
+      "label": "1985/86",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1984,
+      "label": "1984/85",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1983,
+      "label": "1983/84",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1982,
+      "label": "1982/83",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1981,
+      "label": "1981/82",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1980,
+      "label": "1980/81",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1979,
+      "label": "1979/80",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1978,
+      "label": "1978/79",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1977,
+      "label": "1977/78",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1976,
+      "label": "1976/77",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1975,
+      "label": "1975/76",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1974,
+      "label": "1974/75",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1973,
+      "label": "1973/74",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1972,
+      "label": "1972/73",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1971,
+      "label": "1971/72",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1970,
+      "label": "1970/71",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1969,
+      "label": "1969/70",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968/69",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1967,
+      "label": "1967/68",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1966,
+      "label": "1966/67",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1965,
+      "label": "1965/66",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1964,
+      "label": "1964/65",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1963,
+      "label": "1963/64",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1962,
+      "label": "1962/63",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1961,
+      "label": "1961/62",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1960,
+      "label": "1960/61",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1959,
+      "label": "1959/60",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1958,
+      "label": "1958/59",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1957,
+      "label": "1957/58",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1956,
+      "label": "1956/57",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1955,
+      "label": "1955/56",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1954,
+      "label": "1954/55",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1953,
+      "label": "1953/54",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1952,
+      "label": "1952/53",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1951,
+      "label": "1951/52",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1950,
+      "label": "1950/51",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1949,
+      "label": "1949/50",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1948,
+      "label": "1948/49",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1947,
+      "label": "1947/48",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1946,
+      "label": "1946/47",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1945,
+      "label": "1945/46",
+      "champion": "Belenenses"
+    },
+    {
+      "apiSeason": 1944,
+      "label": "1944/45",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1943,
+      "label": "1943/44",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1942,
+      "label": "1942/43",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1941,
+      "label": "1941/42",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1940,
+      "label": "1940/41",
+      "champion": "Sporting CP"
+    },
+    {
+      "apiSeason": 1939,
+      "label": "1939/40",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1938,
+      "label": "1938/39",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1937,
+      "label": "1937/38",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1936,
+      "label": "1936/37",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1935,
+      "label": "1935/36",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1934,
+      "label": "1934/35",
+      "champion": "Porto"
+    }
+  ],
+  "BSA": [
+    {
+      "apiSeason": 2025,
+      "label": "2025",
+      "champion": "Flamengo"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024",
+      "champion": "Botafogo"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021",
+      "champion": "Atlético Mineiro"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020",
+      "champion": "Flamengo"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019",
+      "champion": "Flamengo"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017",
+      "champion": "Corinthians"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015",
+      "champion": "Corinthians"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014",
+      "champion": "Cruzeiro"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013",
+      "champion": "Cruzeiro"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012",
+      "champion": "Fluminense"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011",
+      "champion": "Corinthians"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010",
+      "champion": "Fluminense"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009",
+      "champion": "Flamengo"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008",
+      "champion": "São Paulo"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007",
+      "champion": "São Paulo"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006",
+      "champion": "São Paulo"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005",
+      "champion": "Corinthians"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004",
+      "champion": "Santos"
+    },
+    {
+      "apiSeason": 2003,
+      "label": "2003",
+      "champion": "Cruzeiro"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002",
+      "champion": "Santos"
+    },
+    {
+      "apiSeason": 2001,
+      "label": "2001",
+      "champion": "Athletico Paranaense"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000",
+      "champion": "Vasco da Gama"
+    },
+    {
+      "apiSeason": 1999,
+      "label": "1999",
+      "champion": "Corinthians"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998",
+      "champion": "Corinthians"
+    },
+    {
+      "apiSeason": 1997,
+      "label": "1997",
+      "champion": "Vasco da Gama"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996",
+      "champion": "Grêmio"
+    },
+    {
+      "apiSeason": 1995,
+      "label": "1995",
+      "champion": "Botafogo"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 1993,
+      "label": "1993",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992",
+      "champion": "Flamengo"
+    },
+    {
+      "apiSeason": 1991,
+      "label": "1991",
+      "champion": "São Paulo"
+    },
+    {
+      "apiSeason": 1990,
+      "label": "1990",
+      "champion": "Corinthians"
+    },
+    {
+      "apiSeason": 1989,
+      "label": "1989",
+      "champion": "Vasco da Gama"
+    },
+    {
+      "apiSeason": 1988,
+      "label": "1988",
+      "champion": "Bahia"
+    },
+    {
+      "apiSeason": 1987,
+      "label": "1987",
+      "champion": "Sport"
+    },
+    {
+      "apiSeason": 1986,
+      "label": "1986",
+      "champion": "São Paulo"
+    },
+    {
+      "apiSeason": 1985,
+      "label": "1985",
+      "champion": "Coritiba"
+    },
+    {
+      "apiSeason": 1984,
+      "label": "1984",
+      "champion": "Fluminense"
+    },
+    {
+      "apiSeason": 1983,
+      "label": "1983",
+      "champion": "Flamengo"
+    },
+    {
+      "apiSeason": 1982,
+      "label": "1982",
+      "champion": "Flamengo"
+    },
+    {
+      "apiSeason": 1981,
+      "label": "1981",
+      "champion": "Grêmio"
+    },
+    {
+      "apiSeason": 1980,
+      "label": "1980",
+      "champion": "Flamengo"
+    },
+    {
+      "apiSeason": 1979,
+      "label": "1979",
+      "champion": "Internacional"
+    },
+    {
+      "apiSeason": 1978,
+      "label": "1978",
+      "champion": "Guarani"
+    },
+    {
+      "apiSeason": 1977,
+      "label": "1977",
+      "champion": "São Paulo"
+    },
+    {
+      "apiSeason": 1976,
+      "label": "1976",
+      "champion": "Internacional"
+    },
+    {
+      "apiSeason": 1975,
+      "label": "1975",
+      "champion": "Internacional"
+    },
+    {
+      "apiSeason": 1974,
+      "label": "1974",
+      "champion": "Vasco da Gama"
+    },
+    {
+      "apiSeason": 1973,
+      "label": "1973",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 1972,
+      "label": "1972",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 1971,
+      "label": "1971",
+      "champion": "Atlético Mineiro"
+    },
+    {
+      "apiSeason": 1970,
+      "label": "1970",
+      "champion": "Fluminense"
+    },
+    {
+      "apiSeason": 1969,
+      "label": "1969",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968 (1º título do ano)",
+      "champion": "Santos"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968 (2º título do ano)",
+      "champion": "Botafogo"
+    },
+    {
+      "apiSeason": 1967,
+      "label": "1967 (1º título do ano)",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 1967,
+      "label": "1967 (2º título do ano)",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 1966,
+      "label": "1966",
+      "champion": "Cruzeiro"
+    },
+    {
+      "apiSeason": 1965,
+      "label": "1965",
+      "champion": "Santos"
+    },
+    {
+      "apiSeason": 1964,
+      "label": "1964",
+      "champion": "Santos"
+    },
+    {
+      "apiSeason": 1963,
+      "label": "1963",
+      "champion": "Santos"
+    },
+    {
+      "apiSeason": 1962,
+      "label": "1962",
+      "champion": "Santos"
+    },
+    {
+      "apiSeason": 1961,
+      "label": "1961",
+      "champion": "Santos"
+    },
+    {
+      "apiSeason": 1960,
+      "label": "1960",
+      "champion": "Palmeiras"
+    },
+    {
+      "apiSeason": 1959,
+      "label": "1959",
+      "champion": "Bahia"
+    },
+    {
+      "apiSeason": 1937,
+      "label": "1937 (1ª edição, reconhecida oficialmente pela CBF em 2023)",
+      "champion": "Atlético Mineiro"
+    }
+  ],
+  "CL": [
+    {
+      "apiSeason": 2025,
+      "label": "2025/26",
+      "champion": "Paris Saint-Germain FC"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024/25",
+      "champion": "Paris Saint-Germain FC"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023/24",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022/23",
+      "champion": "Manchester City FC"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021/22",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020/21",
+      "champion": "Chelsea FC"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019/20",
+      "champion": "Bayern Munich"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018/19",
+      "champion": "Liverpool FC"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017/18",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016/17",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015/16",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014/15",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013/14",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012/13",
+      "champion": "Bayern Munich"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011/12",
+      "champion": "Chelsea FC"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010/11",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009/10",
+      "champion": "Internazionale"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008/09",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007/08",
+      "champion": "Manchester United FC"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006/07",
+      "champion": "AC Milan"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005/06",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004/05",
+      "champion": "Liverpool FC"
+    },
+    {
+      "apiSeason": 2003,
+      "label": "2003/04",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002/03",
+      "champion": "AC Milan"
+    },
+    {
+      "apiSeason": 2001,
+      "label": "2001/02",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000/01",
+      "champion": "Bayern Munich"
+    },
+    {
+      "apiSeason": 1999,
+      "label": "1999/00",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998/99",
+      "champion": "Manchester United FC"
+    },
+    {
+      "apiSeason": 1997,
+      "label": "1997/98",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996/97",
+      "champion": "Borussia Dortmund"
+    },
+    {
+      "apiSeason": 1995,
+      "label": "1995/96",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994/95",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1993,
+      "label": "1993/94",
+      "champion": "AC Milan"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992/93",
+      "champion": "Marseille"
+    },
+    {
+      "apiSeason": 1991,
+      "label": "1991/92",
+      "champion": "Barcelona"
+    },
+    {
+      "apiSeason": 1990,
+      "label": "1990/91",
+      "champion": "Red Star Belgrade"
+    },
+    {
+      "apiSeason": 1989,
+      "label": "1989/90",
+      "champion": "AC Milan"
+    },
+    {
+      "apiSeason": 1988,
+      "label": "1988/89",
+      "champion": "AC Milan"
+    },
+    {
+      "apiSeason": 1987,
+      "label": "1987/88",
+      "champion": "PSV Eindhoven"
+    },
+    {
+      "apiSeason": 1986,
+      "label": "1986/87",
+      "champion": "Porto"
+    },
+    {
+      "apiSeason": 1985,
+      "label": "1985/86",
+      "champion": "Steaua București"
+    },
+    {
+      "apiSeason": 1984,
+      "label": "1984/85",
+      "champion": "Juventus"
+    },
+    {
+      "apiSeason": 1983,
+      "label": "1983/84",
+      "champion": "Liverpool FC"
+    },
+    {
+      "apiSeason": 1982,
+      "label": "1982/83",
+      "champion": "Hamburger SV"
+    },
+    {
+      "apiSeason": 1981,
+      "label": "1981/82",
+      "champion": "Aston Villa FC"
+    },
+    {
+      "apiSeason": 1980,
+      "label": "1980/81",
+      "champion": "Liverpool FC"
+    },
+    {
+      "apiSeason": 1979,
+      "label": "1979/80",
+      "champion": "Nottingham Forest FC"
+    },
+    {
+      "apiSeason": 1978,
+      "label": "1978/79",
+      "champion": "Nottingham Forest FC"
+    },
+    {
+      "apiSeason": 1977,
+      "label": "1977/78",
+      "champion": "Liverpool FC"
+    },
+    {
+      "apiSeason": 1976,
+      "label": "1976/77",
+      "champion": "Liverpool FC"
+    },
+    {
+      "apiSeason": 1975,
+      "label": "1975/76",
+      "champion": "Bayern Munich"
+    },
+    {
+      "apiSeason": 1974,
+      "label": "1974/75",
+      "champion": "Bayern Munich"
+    },
+    {
+      "apiSeason": 1973,
+      "label": "1973/74",
+      "champion": "Bayern Munich"
+    },
+    {
+      "apiSeason": 1972,
+      "label": "1972/73",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1971,
+      "label": "1971/72",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1970,
+      "label": "1970/71",
+      "champion": "Ajax"
+    },
+    {
+      "apiSeason": 1969,
+      "label": "1969/70",
+      "champion": "Feyenoord"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968/69",
+      "champion": "AC Milan"
+    },
+    {
+      "apiSeason": 1967,
+      "label": "1967/68",
+      "champion": "Manchester United FC"
+    },
+    {
+      "apiSeason": 1966,
+      "label": "1966/67",
+      "champion": "Celtic FC"
+    },
+    {
+      "apiSeason": 1965,
+      "label": "1965/66",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 1964,
+      "label": "1964/65",
+      "champion": "Internazionale"
+    },
+    {
+      "apiSeason": 1963,
+      "label": "1963/64",
+      "champion": "Internazionale"
+    },
+    {
+      "apiSeason": 1962,
+      "label": "1962/63",
+      "champion": "AC Milan"
+    },
+    {
+      "apiSeason": 1961,
+      "label": "1961/62",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1960,
+      "label": "1960/61",
+      "champion": "Benfica"
+    },
+    {
+      "apiSeason": 1959,
+      "label": "1959/60",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 1958,
+      "label": "1958/59",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 1957,
+      "label": "1957/58",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 1956,
+      "label": "1956/57",
+      "champion": "Real Madrid CF"
+    },
+    {
+      "apiSeason": 1955,
+      "label": "1955/56",
+      "champion": "Real Madrid CF"
+    }
+  ],
+  "WC": [
+    {
+      "apiSeason": 2026,
+      "label": "2026",
+      "champion": "Spain"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022",
+      "champion": "Argentina"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018",
+      "champion": "France"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014",
+      "champion": "Germany"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010",
+      "champion": "Spain"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006",
+      "champion": "Italy"
+    },
+    {
+      "apiSeason": 2002,
+      "label": "2002",
+      "champion": "Brazil"
+    },
+    {
+      "apiSeason": 1998,
+      "label": "1998",
+      "champion": "France"
+    },
+    {
+      "apiSeason": 1994,
+      "label": "1994",
+      "champion": "Brazil"
+    },
+    {
+      "apiSeason": 1990,
+      "label": "1990",
+      "champion": "West Germany"
+    },
+    {
+      "apiSeason": 1986,
+      "label": "1986",
+      "champion": "Argentina"
+    },
+    {
+      "apiSeason": 1982,
+      "label": "1982",
+      "champion": "Italy"
+    },
+    {
+      "apiSeason": 1978,
+      "label": "1978",
+      "champion": "Argentina"
+    },
+    {
+      "apiSeason": 1974,
+      "label": "1974",
+      "champion": "West Germany"
+    },
+    {
+      "apiSeason": 1970,
+      "label": "1970",
+      "champion": "Brazil"
+    },
+    {
+      "apiSeason": 1966,
+      "label": "1966",
+      "champion": "England"
+    },
+    {
+      "apiSeason": 1962,
+      "label": "1962",
+      "champion": "Brazil"
+    },
+    {
+      "apiSeason": 1958,
+      "label": "1958",
+      "champion": "Brazil"
+    },
+    {
+      "apiSeason": 1954,
+      "label": "1954",
+      "champion": "West Germany"
+    },
+    {
+      "apiSeason": 1950,
+      "label": "1950",
+      "champion": "Uruguay"
+    },
+    {
+      "apiSeason": 1938,
+      "label": "1938",
+      "champion": "Italy"
+    },
+    {
+      "apiSeason": 1934,
+      "label": "1934",
+      "champion": "Italy"
+    },
+    {
+      "apiSeason": 1930,
+      "label": "1930",
+      "champion": "Uruguay"
+    }
+  ],
+  "EC": [
+    {
+      "apiSeason": 2024,
+      "label": "2024",
+      "champion": "Spain"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020 (Euro 2020, disputada em 2021)",
+      "champion": "Italy"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016",
+      "champion": "Portugal"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012",
+      "champion": "Spain"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008",
+      "champion": "Spain"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004",
+      "champion": "Greece"
+    },
+    {
+      "apiSeason": 2000,
+      "label": "2000",
+      "champion": "France"
+    },
+    {
+      "apiSeason": 1996,
+      "label": "1996",
+      "champion": "Germany"
+    },
+    {
+      "apiSeason": 1992,
+      "label": "1992",
+      "champion": "Denmark"
+    },
+    {
+      "apiSeason": 1988,
+      "label": "1988",
+      "champion": "Netherlands"
+    },
+    {
+      "apiSeason": 1984,
+      "label": "1984",
+      "champion": "France"
+    },
+    {
+      "apiSeason": 1980,
+      "label": "1980",
+      "champion": "West Germany"
+    },
+    {
+      "apiSeason": 1976,
+      "label": "1976",
+      "champion": "Czechoslovakia"
+    },
+    {
+      "apiSeason": 1972,
+      "label": "1972",
+      "champion": "West Germany"
+    },
+    {
+      "apiSeason": 1968,
+      "label": "1968",
+      "champion": "Italy"
+    },
+    {
+      "apiSeason": 1964,
+      "label": "1964",
+      "champion": "Spain"
+    },
+    {
+      "apiSeason": 1960,
+      "label": "1960",
+      "champion": "Soviet Union"
+    }
+  ],
+  "ELC": [
+    {
+      "apiSeason": 2025,
+      "label": "2025/26",
+      "champion": "Coventry City"
+    },
+    {
+      "apiSeason": 2024,
+      "label": "2024/25",
+      "champion": "Leeds United"
+    },
+    {
+      "apiSeason": 2023,
+      "label": "2023/24",
+      "champion": "Leicester City"
+    },
+    {
+      "apiSeason": 2022,
+      "label": "2022/23",
+      "champion": "Burnley"
+    },
+    {
+      "apiSeason": 2021,
+      "label": "2021/22",
+      "champion": "Fulham"
+    },
+    {
+      "apiSeason": 2020,
+      "label": "2020/21",
+      "champion": "Norwich City"
+    },
+    {
+      "apiSeason": 2019,
+      "label": "2019/20",
+      "champion": "Leeds United"
+    },
+    {
+      "apiSeason": 2018,
+      "label": "2018/19",
+      "champion": "Norwich City"
+    },
+    {
+      "apiSeason": 2017,
+      "label": "2017/18",
+      "champion": "Wolverhampton Wanderers"
+    },
+    {
+      "apiSeason": 2016,
+      "label": "2016/17",
+      "champion": "Newcastle United"
+    },
+    {
+      "apiSeason": 2015,
+      "label": "2015/16",
+      "champion": "Burnley"
+    },
+    {
+      "apiSeason": 2014,
+      "label": "2014/15",
+      "champion": "AFC Bournemouth"
+    },
+    {
+      "apiSeason": 2013,
+      "label": "2013/14",
+      "champion": "Leicester City"
+    },
+    {
+      "apiSeason": 2012,
+      "label": "2012/13",
+      "champion": "Cardiff City"
+    },
+    {
+      "apiSeason": 2011,
+      "label": "2011/12",
+      "champion": "Reading"
+    },
+    {
+      "apiSeason": 2010,
+      "label": "2010/11",
+      "champion": "Queens Park Rangers"
+    },
+    {
+      "apiSeason": 2009,
+      "label": "2009/10",
+      "champion": "Newcastle United"
+    },
+    {
+      "apiSeason": 2008,
+      "label": "2008/09",
+      "champion": "Wolverhampton Wanderers"
+    },
+    {
+      "apiSeason": 2007,
+      "label": "2007/08",
+      "champion": "West Bromwich Albion"
+    },
+    {
+      "apiSeason": 2006,
+      "label": "2006/07",
+      "champion": "Sunderland"
+    },
+    {
+      "apiSeason": 2005,
+      "label": "2005/06",
+      "champion": "Reading"
+    },
+    {
+      "apiSeason": 2004,
+      "label": "2004/05",
+      "champion": "Sunderland"
+    }
+  ]
+}

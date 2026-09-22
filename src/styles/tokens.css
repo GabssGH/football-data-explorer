@@ -1,0 +1,60 @@
+/*
+  Football Data Explorer — Design Tokens
+  Conceito: placar de estádio à noite. Fundo verde-noite profundo,
+  números grandes em dourado (como luzes de placar), acentos de
+  verde-grama para positivo e vermelho de placar para negativo.
+*/
+
+:root {
+  /* Cor */
+  --color-bg: #0d1512;             /* verde-noite — fundo principal */
+  --color-surface: #16211c;        /* superfície dos cards */
+  --color-surface-raised: #1c2a23; /* cards em hover/destaque */
+  --color-border: #2a3a32;
+
+  --color-text: #e8ece7;           /* branco-giz — texto principal */
+  --color-text-muted: #7c9186;     /* verde-névoa — texto secundário */
+
+  --color-gold: #f5b942;           /* dourado de placar — números-chave, destaque */
+  --color-gold-dim: #b98d34;
+
+  --color-green: #3fa66b;          /* verde-grama — vitórias, aproveitamento positivo */
+  --color-red: #e2554a;            /* vermelho de placar — derrotas */
+  --color-blue-mist: #5c8fae;      /* empates / dados neutros em gráficos */
+
+  /* Tipografia */
+  --font-display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+  --fs-hero: clamp(2.5rem, 5vw, 4.5rem);
+  --fs-stat: clamp(2rem, 4vw, 3rem);
+  --fs-h2: 1.5rem;
+  --fs-body: 1rem;
+  --fs-caption: 0.8125rem;
+
+  /* Espaçamento */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+  --space-6: 64px;
+
+  /* Layout */
+  --radius-card: 6px;
+  --radius-pill: 999px;
+  --max-width: 1280px;
+
+  /* Movimento */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 150ms;
+  --duration-medium: 400ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0ms;
+    --duration-medium: 0ms;
+  }
+}
