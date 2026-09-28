@@ -12,6 +12,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
+    base: '/football-data-explorer/',
     server: {
       proxy: {
         '/api/football': {
