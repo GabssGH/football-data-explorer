@@ -1,4 +1,5 @@
 import { mkdir, writeFile } from 'node:fs/promises';
+import { apiGet } from './api';
 
 const TOKEN = process.env.FOOTBALL_DATA_TOKEN;
 const BASE = 'https://api.football-data.org/v4';

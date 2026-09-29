@@ -1,3 +1,4 @@
+import { apiGet } from './api';
 const BASE_URL = '/api/football';
 const RATE_LIMIT = 10; // requisições por minuto (plano free)
 const WINDOW_MS = 60_000;

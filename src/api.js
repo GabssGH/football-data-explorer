@@ -1,3 +1,4 @@
+import { apiGet } from './api';
 const toFile = (path) =>
   path.replace(/^\//, '').replace(/[^a-zA-Z0-9]+/g, '_') + '.json';
 
