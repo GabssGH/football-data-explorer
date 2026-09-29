@@ -24,7 +24,7 @@ const paths = [
 await mkdir(OUT, { recursive: true });
 
 for (const path of paths) {
-  const res = await fetch(BASE + path, { headers: { 'X-Auth-Token': TOKEN } });
+  const res = await apiGet(BASE + path, { headers: { 'X-Auth-Token': TOKEN } });
   if (!res.ok) {
     console.error(`Falha em ${path}: ${res.status} ${await res.text()}`);
     process.exit(1);

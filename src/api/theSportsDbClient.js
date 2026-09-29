@@ -25,7 +25,7 @@ async function fetchTSDB(path, attempt = 1) {
 
   const MAX_ATTEMPTS = 3;
   try {
-    const res = await fetch(url);
+    const res = await apiGet(url);
     if (!res.ok) {
       throw new Error(`TheSportsDB respondeu ${res.status}`);
     }

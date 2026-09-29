@@ -1,13 +1,3 @@
-/**
- * Cliente da football-data.org (v4).
- *
- * Duas responsabilidades que justificam esse arquivo existir separado
- * dos hooks: (1) nunca expor o token no bundle público — as chamadas
- * passam por /api/football (proxy), e (2) respeitar o limite de 10
- * requisições/minuto do plano gratuito com uma fila + cache em memória,
- * já que várias telas do dashboard podem pedir o mesmo recurso.
- */
-
 const BASE_URL = '/api/football';
 const RATE_LIMIT = 10; // requisições por minuto (plano free)
 const WINDOW_MS = 60_000;
@@ -41,7 +31,7 @@ async function processQueue() {
     const { url, resolve, reject } = queue.shift();
     try {
       requestTimestamps.push(Date.now());
-      const res = await fetch(url);
+      const res = await apiGet(url);
       if (!res.ok) {
         // A API costuma devolver um corpo JSON com `message` explicando o
         // motivo real (ex: temporada fora do que o plano gratuito cobre).

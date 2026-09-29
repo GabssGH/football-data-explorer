@@ -6,7 +6,7 @@ export async function apiGet(path) {
     ? `${import.meta.env.BASE_URL}data/${toFile(path)}`
     : `/api/football${path}`;
 
-  const res = await fetch(url);
+  const res = await apiGet(url);
   if (!res.ok) throw new Error(`Erro ${res.status} em ${url}`);
   return res.json();
 }
