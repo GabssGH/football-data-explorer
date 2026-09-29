@@ -1,4 +1,15 @@
-import { apiGet } from './api';
+/**
+ * Cliente da TheSportsDB (v1) — usada só pra histórico multi-temporada,
+ * já que a football-data.org free tier não dá acesso a temporadas
+ * passadas.
+ *
+ * Por padrão usa a chave de teste pública "123" (a atual, segundo a
+ * documentação oficial — compartilhada, sem custo, ~30 req/min). Se
+ * você apoiar o Patreon deles (a partir de US$9/mês pra Premium) e
+ * receber uma chave paga, defina VITE_THESPORTSDB_KEY no seu .env
+ * — o projeto passa a usá-la automaticamente, sem precisar mexer em
+ * mais nada.
+ */
 const API_KEY = import.meta.env.VITE_THESPORTSDB_KEY || '123';
 const BASE_URL = `https://www.thesportsdb.com/api/v1/json/${API_KEY}`;
 const CACHE_TTL_MS = 30 * 60_000; // dado histórico muda raramente — cache mais longo
@@ -14,7 +25,7 @@ async function fetchTSDB(path, attempt = 1) {
 
   const MAX_ATTEMPTS = 3;
   try {
-    const res = await apiGet(url);
+    const res = await fetch(url);
     if (!res.ok) {
       throw new Error(`TheSportsDB respondeu ${res.status}`);
     }

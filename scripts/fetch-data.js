@@ -14,12 +14,13 @@ const toFile = (path) =>
   path.replace(/^\//, '').replace(/[^a-zA-Z0-9]+/g, '_') + '.json';
 
 // Cada string precisa ser IDÊNTICA à usada no app
-const paths = [
-  '/competitions/BSA/teams?season=2026',
-  '/competitions/BSA/standings?season=2026',
-  '/competitions/BSA/matches?season=2026',
-  '/competitions/BSA/scorers?limit=10&season=2026',
-];
+const codes = ['PL', 'ELC', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'BSA'];
+const paths = codes.flatMap((c) => [
+  `/competitions/${c}/teams?season=2026`,
+  `/competitions/${c}/standings?season=2026`,
+  `/competitions/${c}/matches?season=2026`,
+  `/competitions/${c}/scorers?limit=10&season=2026`,
+]);
 
 await mkdir(OUT, { recursive: true });
 
