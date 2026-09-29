@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 9 * * *'   # todo dia às 9h UTC (6h em Brasília)
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 permissions:
@@ -31,8 +31,7 @@ jobs:
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
       - run: npm run build
-        env:
-          FOOTBALL_DATA_TOKEN: 09721c07f58746709e1f1504a09127da
+      - run: ls -R dist | head -30
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
