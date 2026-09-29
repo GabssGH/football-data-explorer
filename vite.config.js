@@ -12,6 +12,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
+    base: '/football-data-explorer/',
     server: {
       proxy: {
         '/api/football': {
@@ -19,7 +20,7 @@ export default defineConfig(({ mode }) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api\/football/, ''),
           headers: {
-            'X-Auth-Token': env.FOOTBALL_DATA_TOKEN || ''
+            'X-Auth-Token': env.FOOTBALL_DATA_TOKEN || '09721c07f58746709e1f1504a09127da'
           }
         }
       }
